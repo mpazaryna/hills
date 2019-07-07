@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - 2019-07-07
+### Changed
+- Moved from wisesmile github repository
+
+### Added
+- Added /paz/gatsby/hello-cloud-nine to demo using Cloud9 and Gatsby.
+
 ## [1.1.0] - 2016-04-08
 ### Added
 - This would be used for added notes

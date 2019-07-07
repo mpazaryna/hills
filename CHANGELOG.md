@@ -7,7 +7,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Moved from wisesmile github repository
 
 ### Added
-- Added /paz/gatsby/hello-cloud-nine to demo using Cloud9 and Gatsby.
+- Added /paz/gatsby/hello-cloud-nine for development on Cloud9.
+- Added /paz/gatsby/hello-mac for development on the MacBook
 
 ## [1.1.0] - 2016-04-08
 ### Added

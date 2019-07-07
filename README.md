@@ -13,4 +13,6 @@ Using the develop branch for gitflow, but not absolutely required.
 
 Adding new key to github with a different email address.
 
+## Updated ./gitconfig:
+
 

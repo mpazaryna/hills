@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Flickr JSON call</title>
+<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+// Don't execute any code until the DOM is ready!
+$(document).ready(function(){                   
+                           
+    // Our very special jQuery JSON fucntion call to Flickr, gets details of the most recent 20 images             
+    $.getJSON("http://blazing-night-3300.herokuapp.com/quotes/7.json", displayQuote);
+    
+    function displayQuote(data) {                                                                                                                                 
+        
+        // Start putting together the HTML string
+        var htmlString = "<p>";                    
+        
+        // Now start cycling through our array of Flickr photo details
+        $.each(data.items, function(i,item){
+                                                    
+                // Here's where we piece together the HTML
+                htmlString += '<p>' + item.blurb + '</p>'
+            }
+        });     
+            
+    // Close down the JSON function call
+    }    
+// The end of our jQuery function   
+});
+</script>
+</head>
+<body>
+<div id="images"> </div>
+View source code to see how this is done!<br />
+<a href="http://www.richardshepherd.com/"> www.richardshepherd.com
+</a>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quote Rotation</title>    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+
+<script type="text/javascript">
+// Don't execute any code until the DOM is ready!
+jQuery(document).ready(function($) {
+    $.get('quotes.txt', function(data) {
+        var quotes = data.split("\@");
+        var idx = Math.floor(quotes.length * Math.random());
+        $('.quotes').html(quotes[idx]);
+    });
+});
+</script>
+<body>
+<div class="quotes"></div>
+</body>
+</html>
+    

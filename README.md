@@ -5,4 +5,8 @@ work and classroom examples across a lifetime of application development.
 
 Gotta climb the hills.
 
+## Develop branch
+
+Using the develop branch for gitflow, but not absolutely required.
+
 

@@ -15,4 +15,6 @@ Adding new key to github with a different email address.
 
 ## Updated ./gitconfig:
 
+## Pushing from other account
 
+The repo is forked, commit to one and push to another

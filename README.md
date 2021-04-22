@@ -1,6 +1,7 @@
 # hills
 
 using a new ssh key
+now using the correct user name
 
 This is the readme file for the hills repository. This repo is a collection of source code  
 work and classroom examples across a lifetime of application development.
